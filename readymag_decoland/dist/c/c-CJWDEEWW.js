@@ -1,0 +1,1 @@
+import{a as n,f as i}from"https://st-p.rmcdn.net/2ec2f837/dist/c/c-JPR5YHB4.js";var s,t,r=n(()=>{"use strict";s=class{constructor(){i(this,"permissions");this.permissions={}}init(e){this.permissions=e}getPermissions(){return this.permissions||{}}},t=new s});export{t as a,r as b};
