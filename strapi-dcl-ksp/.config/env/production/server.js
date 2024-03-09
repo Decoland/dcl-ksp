@@ -1,5 +1,7 @@
 // Path: ./config/env/production/server.js
 // starting from Strapi v 4.6.1 server.js has to be the following
+const path = require('path');
+require('dotenv').config({ path: path.resolve(__dirname, '.env') });
 
 module.exports = ({ env }) => ({
     proxy: true,

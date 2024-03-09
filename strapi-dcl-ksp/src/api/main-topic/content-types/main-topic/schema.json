@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "main_topics",
+  "info": {
+    "singularName": "main-topic",
+    "pluralName": "main-topics",
+    "displayName": "Main Topics",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "enumeration",
+      "enum": [
+        "Blockchain in Human Rights",
+        "Decentralized Governance",
+        "Transparency and Accountability",
+        "Equity and Inclusion",
+        "Democratization of Funding",
+        "Decolonization of Knowledge",
+        "Decentralization of decision-making",
+        "Community Building",
+        "Community Empowerment"
+      ]
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

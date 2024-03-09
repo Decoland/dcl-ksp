@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "email_templates",
+  "info": {
+    "singularName": "email-template",
+    "pluralName": "email-templates",
+    "displayName": "EmailTemplate"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "html_content": {
+      "type": "blocks"
+    },
+    "plain_text_content": {
+      "type": "text"
+    },
+    "template_description": {
+      "type": "text"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Coming Soon",
+        "Free Resource",
+        "Welcome Newsletter"
+      ]
+    },
+    "last_update": {
+      "type": "date"
+    },
+    "status_template": {
+      "type": "enumeration",
+      "enum": [
+        "Draft",
+        "Approved",
+        "Archived"
+      ]
+    }
+  }
+}
