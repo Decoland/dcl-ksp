@@ -24,9 +24,7 @@
     "sqlite": "^5.1.1",
     "styled-components": "5.3.3"
   },
-  "author": {
-    "name": "A Strapi developer"
-  },
+  "author": "A Strapi developer",
   "strapi": {
     "uuid": "a698c7e6-1c8a-4c62-8a32-37e9dab3b775"
   },
@@ -34,5 +32,24 @@
     "node": ">=18.0.0 <=20.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "main": "strapi-dcl-ksp\\config\\server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Decoland/dcl-ksp.git"
+  },
+  "keywords": [
+    "strapi",
+    "headless-cms",
+    "nodejs",
+    "javascript",
+    "rest-api",
+    "graphql",
+    "content-management"
+  ],
+  "bugs": {
+    "url": "https://github.com/Decoland/dcl-ksp/issues"
+  },
+  "homepage": "https://github.com/Decoland/dcl-ksp#readme"
 }
